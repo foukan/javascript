@@ -1,28 +1,28 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-body{
+body {
     display: inline-block;
-    
+
 }
 
-h1{
+h1 {
     margin-bottom: 2rem;
     font-family: monospace;
 }
 
-form{
+form {
     margin: 5rem;
     background-color: #adadad;
     padding: 4rem;
-    border: .2rem  solid #494949;
+    border: .2rem solid #494949;
     border-radius: .5rem;
-    
+
 }
 
-#btn{
+#btn {
     width: 30vh;
     padding: .5rem;
     background-color: rgb(121, 118, 118);
@@ -30,8 +30,8 @@ form{
     cursor: pointer;
 }
 
-#errors{
-    
+#errors {
+
     margin-top: 1vh;
     color: red;
     font-weight: bold;
@@ -40,7 +40,7 @@ form{
 
 }
 
-input{
+input {
     height: 2rem;
     width: 29.5vh;
     text-align: center;
