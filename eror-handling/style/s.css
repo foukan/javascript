@@ -10,19 +10,20 @@ body{
 
 h1{
     margin-bottom: 2rem;
+    font-family: monospace;
 }
 
 form{
     margin: 5rem;
     background-color: #adadad;
     padding: 4rem;
-    border: .2rem solid #494949;
-    font-weight: bold;
+    border: .2rem  solid #494949;
+    border-radius: .5rem;
     
 }
 
 #btn{
-    width: 172px;
+    width: 30vh;
     padding: .5rem;
     background-color: rgb(121, 118, 118);
     border: none;
@@ -33,6 +34,7 @@ form{
     
     margin-top: 1vh;
     color: red;
+    font-weight: bold;
     font-size: 3vh;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 
@@ -40,5 +42,6 @@ form{
 
 input{
     height: 2rem;
-    width: 5remrem;
+    width: 29.5vh;
+    text-align: center;
 }
