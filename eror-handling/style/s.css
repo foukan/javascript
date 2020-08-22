@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: inline-block;
+    
+}
+
+h1{
+    margin-bottom: 2rem;
+}
+
+form{
+    margin: 5rem;
+    background-color: #adadad;
+    padding: 4rem;
+    border: .2rem solid #494949;
+    font-weight: bold;
+    
+}
+
+#btn{
+    width: 172px;
+    padding: .5rem;
+    background-color: rgb(121, 118, 118);
+    border: none;
+    cursor: pointer;
+}
+
+#errors{
+    
+    margin-top: 1vh;
+    color: red;
+    font-size: 3vh;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+input{
+    height: 2rem;
+}
