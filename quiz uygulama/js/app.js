@@ -83,6 +83,7 @@ function guess(id, guess) {
         quiz.guess(guess);
         loadQuestion()
     }
+
 }
 
 function showScore() {
@@ -94,9 +95,10 @@ function showScore() {
 function showProgress() {
     var totalQuestion = quiz.questions.length;
     var questionNumber = quiz.questionIndex + 1;
-    var html = 'Question ' + questionNumber + ' of ' + totalQuestion;
+    var html = 'Question ' + questionNumber  + ' of ' + totalQuestion;
+    
 
-    if (totalQuestion === questionNumber) {
+    if ( questionNumber === totalQuestion) {
         document.querySelector('#progress').innerHTML = "Quiz is Ended";
     } else {
         document.querySelector('#progress').innerHTML = html;
