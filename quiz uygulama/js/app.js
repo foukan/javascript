@@ -86,23 +86,21 @@ function guess(id, guess) {
 
 }
 
+
+
+function showProgress() {
+    var totalQuestion = quiz.questions.length;
+    var questionNumber = quiz.questionIndex ;
+    var html = 'Question ' +( questionNumber +1) + ' of ' + totalQuestion;
+    
+    document.querySelector('#progress').innerHTML=html;
+
+}
+
 function showScore() {
     var html = `<h2>Your Score is...</h2><h4>${quiz.score}</h4>`;
 
     document.querySelector('.card-body').innerHTML = html;
-}
 
-function showProgress() {
-    var totalQuestion = quiz.questions.length;
-    var questionNumber = quiz.questionIndex + 1;
-    var html = 'Question ' + questionNumber  + ' of ' + totalQuestion;
-    
-
-    if ( questionNumber === totalQuestion) {
-        document.querySelector('#progress').innerHTML = "Quiz is Ended";
-    } else {
-        document.querySelector('#progress').innerHTML = html;
-    }
-
-
+    document.querySelector('#progress').innerHTML = "Quiz is Ended";
 }

@@ -1,0 +1,45 @@
+.container{
+    margin: 2rem 0 0 2rem;
+    
+    
+}
+.card{
+    box-shadow: 1vh 2vh 2vh  #646260;
+    border: cornflowerblue;
+}
+.card-header{
+    color: #fff4fae5;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #597560e0;
+    letter-spacing: 1rem;
+    font-size: larger;
+}
+
+
+.btn{
+    border-color: #5d7285 ;  
+    color: #fff4fae5;
+    font-family: cursive;
+    background-color: #5d7285  ;
+    transition: all 0.5s ease-in-out  ;
+}
+.btn:hover{
+    background-color: #a1b4a2bd  ;
+    border-color: #a1b4a2bd  ;
+   
+}
+.btn:focus{
+    background-color: #a1b4a2bd  ;
+    border-color: #a1b4a2bd  ;
+}
+
+.card-footer{
+    color: #fff4fae5;
+    font-family: monospace;
+    background-color: #559b67e0;
+    letter-spacing: 1rem;
+    font-size: larger;
+    text-align: center;
+}
